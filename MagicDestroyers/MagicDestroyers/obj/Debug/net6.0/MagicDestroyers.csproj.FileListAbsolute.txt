@@ -1,0 +1,5 @@
+C:\Users\kumar\OneDrive - Fisk University\Documents\OOP\Project\MagicDestroyers\MagicDestroyers\obj\Debug\net6.0\MagicDestroyers.csproj.AssemblyReference.cache
+C:\Users\kumar\OneDrive - Fisk University\Documents\OOP\Project\MagicDestroyers\MagicDestroyers\obj\Debug\net6.0\MagicDestroyers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kumar\OneDrive - Fisk University\Documents\OOP\Project\MagicDestroyers\MagicDestroyers\obj\Debug\net6.0\MagicDestroyers.AssemblyInfoInputs.cache
+C:\Users\kumar\OneDrive - Fisk University\Documents\OOP\Project\MagicDestroyers\MagicDestroyers\obj\Debug\net6.0\MagicDestroyers.AssemblyInfo.cs
+C:\Users\kumar\OneDrive - Fisk University\Documents\OOP\Project\MagicDestroyers\MagicDestroyers\obj\Debug\net6.0\MagicDestroyers.csproj.CoreCompileInputs.cache

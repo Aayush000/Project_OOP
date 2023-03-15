@@ -20,13 +20,13 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return abilityPoints;
+                return this.abilityPoints;
             }
             set
             {
                 if (value >= 0 && value <= 100)
                 {
-                    abilityPoints = value;
+                    this.abilityPoints = value;
                 }
                 else
                 {
@@ -38,13 +38,13 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return healthPoints;
+                return this.healthPoints;
             }
             set
             {
                 if (value >= 0 && value <= 120)
                 {
-                    healthPoints = value;
+                    this.healthPoints = value;
                 }
                 else
                 {
@@ -56,13 +56,13 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return level;
+                return this.level;
             }
             set
             {
                 if (value >= 0)
                 {
-                    healthPoints = value;
+                    this.healthPoints = value;
                 }
                 else
                 {
@@ -75,13 +75,13 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return name;
+                return this.name;
             }
             set
             {
                 if (value.Length >= 3 && value.Length <= 12)
                 {
-                    name = value;
+                    this.name = value;
                 }
                 else
                 {
@@ -93,17 +93,17 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return faction;
+                return this.faction;
             }
             set
             {
                 if (value == "Melee" || value == "Spellcaster")
                 {
-                    faction = value;
+                    this.faction = value;
                 }
                 else
                 {
-                    throw new ArgumentException(string.Empty, "The faction should be either Melee");
+                    throw new ArgumentException(string.Empty, "The faction should be either Melee or Spellcaster");
                 }
             }
         }
@@ -112,22 +112,22 @@ namespace MagicDestroyers.Characters.Melee
         {
             get
             {
-                return bodyArmor;
+                return this.bodyArmor;
             }
             set
             {
-                bodyArmor = value;
+                this.bodyArmor = value;
             }
         }
         public Sword Weapon
         {
             get
             {
-                return weapon;
+                return this.weapon;
             }
             set
             {
-                weapon = value;
+                this.weapon = value;
             }
         }
 

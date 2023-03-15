@@ -1,4 +1,5 @@
-﻿using MagicDestroyers.Equipment.Armors.Heavy;
+﻿using MagicDestroyers.Enums;
+using MagicDestroyers.Equipment.Armors.Heavy;
 using MagicDestroyers.Equipment.Weapons.Sharp;
 using System;
 
@@ -132,8 +133,24 @@ namespace MagicDestroyers.Characters.Melee
         }
 
         public Warrior()
+            : this("Bob", 1)
         {
+        }
 
+        public Warrior(string name, int level)
+            : this(name, level, 120)
+        {
+        }
+
+        public Warrior(string name, int level, int healthPoints)
+        {
+            this.Name = name;
+            this.Level = level;
+            this.HealthPoints = healthPoints;
+            this.AbilityPoints = 100;
+            this.Faction = "Melee";
+            this.BodyArmor = new Chainlink();
+            this.Weapon = new Axe();
         }
 
         public void Strike()

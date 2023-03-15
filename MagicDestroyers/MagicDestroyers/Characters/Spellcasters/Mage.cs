@@ -131,7 +131,6 @@ namespace MagicDestroyers.Characters.Spellcasters
             }
         }
 
-
         public Mage()
         {
 

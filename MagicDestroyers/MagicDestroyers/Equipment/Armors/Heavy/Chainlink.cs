@@ -14,13 +14,13 @@ namespace MagicDestroyers.Equipment.Armors.Heavy
         {
             get
             {
-                return armorPoints;
+                return this.armorPoints;
             }
             set
             {
                 if (value >= 0)
                 {
-                    armorPoints = value;
+                    this.armorPoints = value;
                 }
                 else
                 {
